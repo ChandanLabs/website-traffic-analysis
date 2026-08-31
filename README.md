@@ -20,9 +20,26 @@ The project uses Python and data analysis libraries to process the dataset and g
 - `Website_Traffic_Analysis.html` — interactive/static HTML report generated from the analysis
 - `Website Traffic Analysis.pdf` — exported PDF version of the report
 - `LICENSE` — project license
-
+```
+## Directory Structure
+website-traffic-analysis/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── data/
+│   └── traffic1.csv
+├── notebooks/
+│   └── traffic_analysis.ipynb
+├── docs/ (or root)
+│   └── index.html
+├── README.md
+├── LICENSE
+├── .gitignore
+└── requirements.txt
+```
+## 🛠️ Tools & Technologies Used
+**Data Processing & Visualization:** 
 ## Tech Stack
-
 - Python
 - Pandas
 - Matplotlib
@@ -61,17 +78,3 @@ Then open:
 ```text
 http://localhost:8000/Website_Traffic_Analysis.html
 ```
-
-
-## Contribution
-
-You can improve the project by:
-
-- adding more visualizations
-- refining the data cleaning process
-- creating a dashboard version
-- adding summary metrics and recommendations
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
